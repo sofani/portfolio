@@ -283,7 +283,7 @@ input {
   height: 450px;
   width: 100%;
   margin-bottom: 15px;
-    background: url('../images/mlk.png') no-repeat;
+   /* background: url('../images/mlk.png') no-repeat;*/
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
@@ -442,6 +442,11 @@ h3.menu-item-title {
      padding-left: 5px;
 
   }
+  #specials-tile {
+    border: 1px solid red;
+    width: 360px;
+    margin: 0 auto 15px;
+  }
 }
 
 /********** Extra small devices only **********/
@@ -506,7 +511,8 @@ h3.menu-item-title {
     margin-top: 30px;
     padding: 0;
   }
-  #menu-tile, #specials-tile {
+#specials-tile {
+    border: 1px solid red;
     width: 360px;
     margin: 0 auto 15px;
   }
@@ -545,7 +551,7 @@ h3.menu-item-title {
   /* End Header */
   
   /* Home page */
-  #menu-tile, #specials-tile {
+ #specials-tile {
     width: 280px;
     margin: 0 auto 15px;
   }
